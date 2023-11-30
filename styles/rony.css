@@ -1,0 +1,205 @@
+*{
+margin: 0%;
+font-family: Open Sans;
+
+
+}
+
+.Btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+   
+    
+    color: white;
+    padding: 18px 35px;
+    height: 64px;
+    
+    
+}
+/*
+img{
+    width: 500;
+    height: 400;
+    padding-left: 180px;
+    
+    
+}*/
+
+
+nav{
+    display: flex;
+
+    justify-content:space-between;
+    margin: 50px 200px;
+    
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+}
+.nav-tytle{
+
+    
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+   
+}
+
+
+/*  banner styles              */
+
+.banner {
+
+    padding-left: 200px;
+    display: flex;
+   
+}
+
+img{
+
+margin-left: 350px;
+
+
+}
+
+
+.banner-title{
+    font-size : 45px; ;
+    font-weight:600;
+    margin-top: 200;
+    
+}
+
+.banner-subt{
+    font-size : 85px; ;
+    font-weight:700;
+
+}
+
+.dis{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.header{
+   
+
+
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+  
+    background-repeat: no-repeat;
+    background-position: right bottom ,left;
+    
+  
+   
+
+
+
+
+}
+
+.button{
+   padding-top: 30px;
+   
+
+    
+    
+}
+
+.style{
+    
+
+    border-radius: 5px;
+    background: #FD6E0A;
+   
+    
+    color: white;
+    padding: 18px 35px;
+    height: 50px;
+font-weight: bolder;
+text-align: center;
+    
+}
+
+.style2{
+    color: #FD6E0A;
+
+    border-radius: 5px;
+    
+margin-left: 10px;
+    padding: 18px 35px;
+    height: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.size{
+    background: #FFF8F3;
+}
+
+/* about main*/
+
+main{
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.about{
+    background: #FFF8F3;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.rony{
+    
+margin-bottom: 30px;
+text-align: center;
+
+
+}
+
+.about-me{
+   color: #757575;
+   font-size: 18px;
+   margin-bottom: 30px;
+    
+   
+}
+
+.about-info-container{
+    
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.info-title{
+    color: var(--Dark-03, #757575);
+
+}
+
+.info-des{
+    color: #181818;
+
+    font-size: 30px;
+}
+
+.i-do{
+    margin-top: 30px;
+    color: black;
+    font-size: large;
+}
