@@ -60,9 +60,9 @@ nav li{
    
 }
 
-img{
+.ronyimg{
 
-margin-left: 350px;
+margin-left: 350px; 
 
 
 }
@@ -164,10 +164,11 @@ padding: 130px 150px ;
 text-align: center;
 
 }
-.section-tytle{
+.section-title{
     
-   
-    margin-bottom: 30px;
+   text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
     font-weight: 700px;
     font-size: 35px;
     
@@ -188,7 +189,7 @@ text-align: center;
     justify-content: space-around;
 }
 
-.info-tytle{
+.info-title{
     font-size: 20px;
      color: #757575;
 }
@@ -198,4 +199,76 @@ font-weight: 700px;
 font-size: 20px;
 color: #474747 ;
 
+}
+
+/* what i do */
+
+.what-i-do{
+
+     margin-top: 130px; 
+     
+    
+}
+
+.skills-container{
+     display: flex;
+     gap: 24px;
+
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill-title{
+font-size: 20px;
+font-weight: 700px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.skill-description{
+
+    color: var(--Dark-03, #757575);
+
+}
+
+/* resume styles */
+.resume-containt{
+
+    display: flex;
+    gap: 24px;
+}
+
+.resume-items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume .title{
+
+    font-weight: 700px;
+    font-size: 20px;
+    color: var(--Dark-02, #474747);
+    margin-bottom: 10px;
+    
+
+}
+.resume .sub-title{
+    font-weight: 600px;
+    font-size: 20px;
+    color: var(--Dark-03, #757575);
+    margin-bottom: 20px;
+
+}
+
+.resume .description{
+    color: var(--Dark-03, #757575);
+
+}
+
+.resume-btn{
+    text-align: center;
+    margin-top: 40px;
 }
