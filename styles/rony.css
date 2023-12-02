@@ -146,60 +146,56 @@ margin-left: 10px;
     background: #FFF8F3;
 }
 
-/* about main*/
+/* main-section */
 
 main{
-    color: var(--Dark-03, #757575);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    text-align: center;
+max-width: 1140px;
+margin: 0 auto;
+
 }
 
+
+/* about section styles */
 .about{
-    background: #FFF8F3;
-    margin-top: 130px;
-    border-radius: 10px;
-    padding: 130px 150px;
-
-}
-.rony{
-    
-margin-bottom: 30px;
+margin-top: 130px;
+border-radius: 10px;
+background: #FFF8F3;
+padding: 130px 150px ;
 text-align: center;
 
-
 }
-
-.about-me{
-   color: #757575;
-   font-size: 18px;
-   margin-bottom: 30px;
+.section-tytle{
     
    
+    margin-bottom: 30px;
+    font-weight: 700px;
+    font-size: 35px;
+    
 }
+
+.section-description{
+ color: #757575;
+ font-size: 18px;
+ margin-bottom: 30px;
+
+}
+
+/* container */
 
 .about-info-container{
-    
+
     display: flex;
     justify-content: space-around;
-    
-
-}
-.info-title{
-    color: var(--Dark-03, #757575);
-
 }
 
-.info-des{
-    color: #181818;
-
-    font-size: 30px;
+.info-tytle{
+    font-size: 20px;
+     color: #757575;
 }
 
-.i-do{
-    margin-top: 30px;
-    color: black;
-    font-size: large;
+.info-description{
+font-weight: 700px;
+font-size: 20px;
+color: #474747 ;
+
 }
