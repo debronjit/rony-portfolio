@@ -277,10 +277,11 @@ margin-bottom: 20px;
 
 .contact{
 
+  
     display: flex;
     gap: 117px;
-    /* background: #FFF8F3; */
-    padding: 130px 200px;
+     background: #FFF8F3; 
+    
 
 }
 
@@ -289,6 +290,9 @@ margin-bottom: 20px;
     text-align: left;
 }
 
+.Let’s{
+    padding-bottom: 30px;
+}
 .contact input[type="text"],input[type="email" ] ,textarea{
     margin-bottom: 24px;
     width: 100%;
